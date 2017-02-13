@@ -21,10 +21,41 @@ body {
   margin: 0;
 }
 
+header {
+  background-color: #e2e2e2;
+}
+
 .logo {
   text-align: center;
 }
 
 .nav {
   text-align: center;
+}
+
+.button {
+  text-decoration: none;
+  color: #0074d9;
+}
+
+.current {
+  color: #fff;
+  background-color: #0074d9;
+}
+
+a:hover {
+  color: #fff;
+  background-color: #0074d9;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .logo {
+    text-align: left;
+  }
+
+  .nav {
+    text-align: left;
+    display: inline-block;
+  }
 }
